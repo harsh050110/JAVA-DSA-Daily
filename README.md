@@ -23,13 +23,14 @@ I regularly solve problems, improve existing solutions, and maintain clean, well
 
 ## 🗂️ Repository Structure
 
-DSA-Practice/
+DSA-Daily/
+│
+├── Reverse.java
+├── Max.java
+├── sub.java
+├── size.java
 │
 ├── Array/
-│   ├── Reverse.java
-│   ├── Max.java
-│   └── sub.java
-│
 ├── String/
 ├── LinkedList/
 ├── Stack/
