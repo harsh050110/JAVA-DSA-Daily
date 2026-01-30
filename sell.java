@@ -1,7 +1,7 @@
 public class sell {
     public static void main(String[] args) {
         sell s = new sell();
-        int[] prices = {7, 1, 6, 4, 5, 3};
+        int[] prices = {74, 10, 64, 45, 53, 35};
         int result = s.sellBuy(prices);
         System.out.println(result); 
     }
