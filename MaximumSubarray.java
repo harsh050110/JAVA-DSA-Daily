@@ -26,7 +26,7 @@ public class MaximumSubarray {
         sc.close();
     }
 
-    // Kadane's Algorithm
+   
     public int maxSubArray(int[] nums) {
 
         int currentSum = nums[0];
