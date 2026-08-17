@@ -12,9 +12,7 @@ public class TS {
         B = sc.nextInt();
 
         System.out.println("Enter the operation you want to perform :");
-        // System.out.println("sum");
-        // System.out.println("sub");
-        // System.out.println("mul");
+        
         
         String operation = sc.next();
 
