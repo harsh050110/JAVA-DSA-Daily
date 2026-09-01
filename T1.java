@@ -9,6 +9,9 @@ public class T1 {
         //  this is meaning of the adding the value of a first then use it . a=5 +1 = 6 * 2 = 12;
 
         System.out.println(d);
+
+        System.out.println(a);
+        System.out.println(b);
     }
     
 }
