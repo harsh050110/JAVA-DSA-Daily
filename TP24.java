@@ -12,10 +12,26 @@ public class TP24 {
         else{
             System.out.println("Not greater than that");
         }
-
+        
         int sum = arr1[3]+arr2[4];
 
         System.out.println("The Total Sum: "+sum);
-    }
+        
+
+        // concat
+
+        String customerName = "William";
+
+        String OrderPurchased ="Pizza";
+
+        double Amount = 12.99; 
+
+
+        String orderSummary= "His name is ".concat(customerName).concat(" purchase item is ").concat(OrderPurchased).concat(". The Order Cost of : $"+Amount);
+
+        System.out.println(orderSummary);
+
+
+        }
     
 }
