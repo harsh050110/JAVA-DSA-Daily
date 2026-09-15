@@ -1,0 +1,27 @@
+public class D19 {
+    public static void main(String[] args) {
+        pattern1(8);
+    }
+
+    static void pattern1(int n) {
+        for (int i = n; i >= 1; i--) {
+
+            // Left stars
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            // Middle spaces
+            for (int j = 1; j <= 2 * (n - i); j++) {
+                System.out.print(" ");
+            }
+
+            // Right stars
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
