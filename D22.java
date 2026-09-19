@@ -3,6 +3,7 @@ public class D22 {
         pattern1(5);
         pattern2(4);
         pattern3(3);
+        pattern4(5);
     }
     static void pattern1(int n){
         for(int i=1; i<=n; i++){
@@ -26,6 +27,20 @@ public class D22 {
                 System.out.print("$");
             }
             System.out.println();
+        }
+    }
+    static void pattern4(int n){
+        for(int i=1; i<=n; i++){
+            
+            for(int j=2; j<=n; j++){
+                if(i==1 || i==n || j==1 || j==n){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+        }
+        System.out.println();
         }
     }
     
