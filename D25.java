@@ -13,7 +13,7 @@ public class D25 {
                 System.out.println("12PM to 3PM - Lunch Time");
                 break;
                 case 4:
-                System.out.println("3PM to 5PM - Tea Time");
+                System.out.println("3Pm to 5PM - Tea Time");
                 break;
                 case 5:
                 System.out.println("5PM to 8PM - Dinner Time");
