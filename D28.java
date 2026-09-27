@@ -4,6 +4,7 @@ public class D28 {
         pattern2(3);
         pattern3(8);
         pattern4(9);
+        pattern5(7);
     }
     static void pattern1(int n){
         for(int i=0;i<n;i++){
@@ -36,8 +37,21 @@ public class D28 {
     }
     static void pattern4(int n){
         for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
+            for(int j=0;j<n;j++){   
                 if(i==0 || i==n-1 || j==0 || j==n-1){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+static void pattern5(int n){
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(i==j || i+j==n-1 || i==0 || i==n-1 || j==0 || j==n-1){
                     System.out.print("*");
                 }
                 else{
