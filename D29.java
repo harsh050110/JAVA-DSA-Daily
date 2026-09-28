@@ -3,7 +3,7 @@ public class D29 {
         int x=1;
         int n = 10;
         for(int i=0; i<=n; i++){
-            x=x*2;
+            x=x+2;
         }
         System.out.println(x);
     }
