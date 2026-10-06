@@ -5,6 +5,7 @@ public class D32 {
         pattern3(7);
         pattern4(8);
         pattern5(6);
+        pattern6(9);
     }
     static void pattern1(int n){
         for(int i=1; i<=n; i++){
@@ -59,6 +60,19 @@ public class D32 {
         }
     }
     static void pattern5(int n){
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=n; j++){
+                if(i==1 || i==n || j==1 || j==n){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    static void pattern6(int n){
         for(int i=1; i<=n; i++){
             for(int j=1; j<=n; j++){
                 if(i==1 || i==n || j==1 || j==n){

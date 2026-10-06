@@ -2,6 +2,7 @@ public class D31 {
     public static void main(String[] args){
         pattern(6);
         pattern(8);
+        pattern(9);
 
     }
     static void pattern(int n){
