@@ -8,6 +8,7 @@ public class D32 {
         pattern6(9);
         pattern8(8);
         pattern1(5);
+        pattern9(5);
     }
     static void pattern1(int n){
         for(int i=1; i<=n; i++){
@@ -111,6 +112,13 @@ public class D32 {
                 }
             }
             System.out.println();
+        }
+    }
+    static void  pattern9(int n){
+        for(int i=1; i<=n; i++){
+            for(int j=0; j<=i; j++){
+                System.out.println("8");
+            }
         }
     }
     
