@@ -11,6 +11,7 @@ public class D32 {
         pattern9(5);
         pattern10(8);
         pattern11(6);
+        pattern12(9);
     }
     static void pattern1(int n){
         for(int i=1; i<=n; i++){
@@ -144,6 +145,14 @@ public class D32 {
              System.out.println();
         }
        
+    }
+    static void pattern12(int n){
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
     
     
