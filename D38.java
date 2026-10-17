@@ -7,6 +7,7 @@ public class D38 {
         pattern5(8);
         pattern6(8);
         pattern7(6);
+        pattern8(8);
     }
     static void pattern1(int n){
         for(int i=1; i<=n; i++){
@@ -87,6 +88,14 @@ public class D38 {
             System.out.print(matrix[i][j] == '*' ? '*' : ' ');
         }
 
+        System.out.println();
+    }
+}
+static void pattern8(int n){
+    for(int i=0; i<=n; i++){
+        for(int j=0; j<=i; j++){
+            System.out.print("*");
+        }
         System.out.println();
     }
 }
