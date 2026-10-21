@@ -17,6 +17,6 @@ public class D39{
             }
             map.put(num[i], i);
         }
-        return new int[]{-1, -1};
+        return new int[]{-1, -1};2
     }
 }
