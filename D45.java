@@ -6,6 +6,7 @@ public class D45 {
         pattern4(7);
         pattern5(8);
         pattern6(7);
+        pattern7(9);
     }
     static void pattern1(int n){
         for(int i=1; i<=n;i++){
@@ -61,6 +62,15 @@ public class D45 {
             }
             System.out.println();
         }
+    }
+    static void pattern7(int n){
+        for(int i=1; i<=n;i++){
+            for(int j=1; j<i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
     }
     
 }
