@@ -3,7 +3,7 @@ public class D54{
         int largest = Integer.MIN_VALUE;
         int count = 0;
         for(int i=0; i<=100; i++){
-            if(i%2!=0 && i<largest){
+            if(i%2!=0 && i>largest){
                 largest=i;
                 
 count++;
