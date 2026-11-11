@@ -5,14 +5,14 @@ public class D64 {
         int count =0;
         int sum =0;
         while(i<=100){
-            if(i%3==0 && i%5==0){
-                count++;
-                sum = sum+i;
+            if(i % 3 == 0 && i % 5 == 0){
+                
+                 System.out.println( "Sum: "+i);
             }
             i++;
         }
-        System.out.println( "No.Of Count: "+count);
-        System.out.println( "Sum: "+sum);
+        
+       
     }
     
 }
