@@ -7,7 +7,6 @@ public class D64 {
         while(i<=100){
             if(i % 3 == 0 && i % 5 == 0){
                 
-                 System.out.println( "Sum: "+i);
             }
             i++;
         }
