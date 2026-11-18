@@ -4,7 +4,7 @@ public class P7 {
             for(int j=1; j<=4-i; j++){
                 System.out.print(" ");
             }
-            for(int j=1; j<=i; j++){
+            for(int j=1; j<=i*2; j++){
                 System.out.print("*");
             }
             
