@@ -1,6 +1,6 @@
 public class P24 {
     public static void main(String[] args) {
-        int i = 12345;
+        int i = 1234;
         int sum =0;
         while(i>0){
             int digit = i%10;
