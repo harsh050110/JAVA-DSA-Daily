@@ -22,6 +22,11 @@ public class P42 {
         }
         System.out.println(sum);
         System.out.println(count);
+        if(sum==a){
+            System.out.println(a+" is an Armstrong number.");
+        }else{
+            System.out.println(a+" is not an Armstrong number.");
+        }
 
     }
     
