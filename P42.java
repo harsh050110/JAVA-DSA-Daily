@@ -1,6 +1,6 @@
 public class P42 {
     public static void main(String[] args) {
-        int temp=9474;
+        int temp=9475;
         int a =temp;
         int count =0;
         int cube =0;
